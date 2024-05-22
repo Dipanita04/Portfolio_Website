@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"> Dipanita.</a>
+
+      <nav class="navbar">
+        <ul id="sidemenu">
+          <li>
+            <a href="index.html#home" style="--i: 1" class="active">Home</a>
+          </li>
+          <li><a href="index.html#about" style="--i: 2">About</a></li>
+          <li><a href="index.html#myskills" style="--i: 3">Skills</a></li>
+          <li><a href="index.html#project" style="--i: 4">Projects</a></li>
+          <li><a href="index.html#contact" style="--i: 5">Contact</a></li>
+          <i class="bx bx-x" onclick="closemenu()"></i>
+        </ul>
+        <i class="bx bx-menu" onclick="openmenu()"></i>
+      </nav>
+    </header>
+
+    <div id="project" class="portfolio">
+      <div class="main-text" style="margin: 100px">
+        <h2>My <span>Projects</span></h2>
+
+        <div class="portfolio-content">
+          <div class="pro">
+            <img src="Images/pimg1.jpg" />
+            <a href="#"
+              ><i class="bx bx-link-external" style="color: aliceblue"></i
+            ></a>
+            <div class="layer" style="border-radius: 0; width: 78%; left: 11%">
+              <h5>Personal Portfolio Website</h5>
+              <p>
+                This is my personal portfolio Website which is designed and
+                built using JavaScript, HTML and CSS.
+              </p>
+
+              <a href="#"
+                ><i class="bx bx-link-external" style="color: aliceblue"></i
+              ></a>
+            </div>
+          </div>
+          <div class="pro">
+            <img src="Images/pimg2.jpg" />
+            <div class="layer" style="border-radius: 0; width: 78%; left: 11%">
+              <h5>Weather Application</h5>
+              <p>
+                It is a APIs Based Weather Application that is built for
+                real-time weather information of any city using JavaScript, HTML
+                and CSS.
+              </p>
+
+              <a href="#"
+                ><i class="bx bx-link-external" style="color: aliceblue"></i
+              ></a>
+            </div>
+          </div>
+          <div class="pro">
+            <img src="Images/pimg3.jpg" />
+            <div class="layer" style="border-radius: 0; width: 78%; left: 11%">
+              <h5>JobSearch</h5>
+              <p>
+                This is a a job search web website that is developed using
+                React, Node.js, Express.js, MongoDB, providing seamless user
+                experience , users to search and apply for jobs on-the-go.
+              </p>
+
+              <a href="#"
+                ><i class="bx bx-link-external" style="color: aliceblue"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="portfolio-content" style="padding: 100px">
+          <div class="pro">
+            <img src="Images/pimg4.jpg" />
+            <a href="#"
+              ><i class="bx bx-link-external" style="color: aliceblue"></i
+            ></a>
+            <div class="layer" style="border-radius: 0; width: 78%; left: 11%">
+              <h5>Tic Tac Toe</h5>
+              <p>
+                It is a two-player game in which the objective is to take turns
+                and mark the correct spaces in a 3x3 grid which is designed
+                using JavaScript, HTML and CSS.
+              </p>
+
+              <a href="#"
+                ><i class="bx bx-link-external" style="color: aliceblue"></i
+              ></a>
+            </div>
+          </div>
+          <div class="pro">
+            <img src="Images/pimg5.jpg" />
+            <div class="layer" style="border-radius: 0; width: 78%; left: 11%">
+              <h5>ToDo List</h5>
+              <p>
+                This website is designed and developed for tasks management
+                functionality for seamless user experience using JavaScript,
+                HTML and CSS.
+              </p>
+
+              <a href="#"
+                ><i class="bx bx-link-external" style="color: aliceblue"></i
+              ></a>
+            </div>
+          </div>
+          <div class="pro">
+            <img src="Images/pimg6.jpg" />
+            <div class="layer" style="border-radius: 0; width: 78%; left: 11%">
+              <h5>Online Food Ordering Website</h5>
+              <p>
+                This is a design of a website which is designed and developed
+                for ordering food through online mode using HTML and CSS .
+              </p>
+
+              <a href="#"
+                ><i class="bx bx-link-external" style="color: aliceblue"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="last-text">
+      <p>Copyright &copy;All rights reserved</p>
+    </div>
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

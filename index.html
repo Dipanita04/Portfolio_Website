@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"> Dipanita.</a>
+
+      <nav class="navbar">
+        <ul id="sidemenu">
+          <li><a href="#home" style="--i: 1" class="active">Home</a></li>
+        <li><a href="#about" style="--i: 2">About</a></li>
+        <li><a href="#myskills" style="--i: 3">Skills</a></li>
+        <li><a href="#project"  style="--i: 4">Projects</a></li>
+        <li><a href="#contact" style="--i: 5">Contact</a></li>
+        <i class='bx bx-x' onclick="closemenu()"></i>
+        </ul>
+        <i class='bx bx-menu' onclick="openmenu()"></i>
+      </nav>
+    </header>
+    <section id="home" class="home">
+      <div class="home-content">
+        <h3>Hello , I am </h3>
+        <h1>Dipanita Mallick</h1>
+        <h3>And I am a <span class="text"></span></h3>
+        
+        <div class="home-sci">
+          <a href=mailto:contact@dipanitamallick013@gmail.com style="--i: 7"><i class="bx bxl-gmail"></i></a>
+          <a href=" https://github.com/Dipanita04" style="--i: 9"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/dipanita-mallick-5b3b87282/" style="--i: 10"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <a href="#about" class="btn-box">More About Me</a>
+      </div>
+      <span class="home-imgHover"></span>
+    </section>
+
+    <div id="about" class="about" >
+      <div class="container-3">
+        <div class="ab-row">
+          <div class="about-col-1">
+            <img src="Images/logo1.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 >Discover <span> My Story</span></h1>
+            <p>I am currently pursuing Bachelor' s degreee in Computer Science And Engineering from DR. B.C. Roy Engineering College. I am currently learning Full-Stack Web Development. I am working hard to build web-based practical applications using latest web technologies.<br> 
+            </p>
+            <p>My Goal is to become a Software Developer Engineer.</p>
+            <p><a href="Images/RESUME-DIPANITA.pdf" download class="btn btn2">Download CV</a></p>
+            
+            </div>
+            <div>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link " onclick="opentab('education')">EDUCATION</p>
+              
+              <p class="tab-links" onclick="opentab('experience')">EXPERIENCE</p>
+              <p class="tab-links" onclick="opentab('course-certificate')">CERTIFICATES</p>
+            </div>
+            <div class="tab-contents active-tab" id="education">
+              <ul>
+                <li><span>2021 - Current</span><br>DR. B.C. Roy Engineering College, Durgapur</li>
+                <h2>Bachelor Of Technology (CSE)</h2>
+                <li><span>2021</span><br>Bidhan Chandra Instituition For Girls</li>
+                <h2>Class 12</h2>
+                <li><span>2019</span><br>Durgapur M.A.M.C Township Modern High School</li>
+                <h2>Class 10</h2>
+              </ul>
+              
+            </div>
+          
+            <div class="tab-contents" id="experience">
+              <ul >
+                <li><span>Full Stack Web Development Internship</span><br>ARDENT COMPUTECH PVT LTD, Durgapur</li>
+                <h2>Full Stack Web Development Internship using MERN Stack delivering a project and mastering the
+                  intricacies of both frontend and backend development.
+                  </h2>
+                
+                  <div class="certificate-section">
+                    <a href="Images/exp.pdf" class="view-button">View Certificate</a>
+                </div>
+                
+              
+              
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="course-certificate">
+              <ul>
+                <li><span>HACKERRANK</span></li>
+                <h2>Cascading Style Sheets (CSS)</h2>
+                <div class="certificate-section">
+                  <a href="Images/css certificate.pdf" class="view-button">View Certificate</a>
+              </div>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      
+    </div>
+
+    
+    <h1 class="sub-title" id="myskills">My <span>Skills</span></h1>
+
+      <div class="services" id="services">
+        <div class="container">
+          
+          <div class="services-list">
+            <div>
+              <i class="bx bx-code" style="color: #00eeff"></i>
+              <h1>TECHNICAL SKILLS</h1>
+              <h2>Frontend Development</h2>
+              <p>              <ul>
+                  <li>Programming Languages: Proficient in JavaScript, HTML, CSS, and Bootstrap for crafting visually stunning and responsive user interfaces.</li>
+                  <li>Frameworks and Libraries: Expertise in React for building dynamic and interactive frontends that enhance user experiences.</li>
+                  
+                </ul>
+              </p>
+  
+              
+              <h2>Backend Development</h2>
+              <p>
+              <ul><li> Programming Languages: Strong command over Node.js for server-side scripting and MongoDB for database management, ensuring robust backend functionalities.</li>
+              <li>Frameworks and Libraries: Skilled in Express.js for creating scalable and efficient backend APIs that support seamless application operations.</li>
+            </ul>
+          </p>
+          <h2>Problem Solving</h2>
+              <p>
+              <ul><li>Proficiency in C, Java, and Python enables the creation of diverse projects and problem-solving using versatile methods.</li>
+              
+            </ul>
+          </p>
+                      <h2>
+              Other Skills
+            </h2>
+            <p>
+              <ul><li>Familiarity with tools like Postman for API testing, Microsoft Word, PowerPoint, and Excel for documentation and presentation purposes.</li></ul>
+            </p>
+
+            </div>
+            <div >
+              <i class="bx bx-crop" style="color: #00eeff"></i>
+              <h1>SOFT SKILLS</h1>
+              <p>
+               <ul>
+                <li>Time Management</li>
+                <li>Communication</li>
+                
+                <li>
+                  Teamwork
+                </li>
+                <li>Adaptibility</li>
+                <li>Leadership</li>
+                <li>Work Ethic</li>
+               </ul>
+
+              </p>
+              <h1 class="lan">LANGUAGES KNOWN</h1>
+              <p>
+               <ul>
+                <li>English</li>
+                <li>Hindi</li>
+                
+                <li>
+                  Bengali
+                </li>
+                
+               </ul>
+
+              </p>
+
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <div id="project" class="portfolio" >
+        <div class="main-text" >
+          <h2>My <span>Projects</span></h2>
+
+          <div class="portfolio-content">
+            <div class="row">
+              <img src="Images/weather1.jpg">
+              <div class="layer">
+                <h5>Weather Application</h5>
+                <p>
+                  It is a APIs Based Weather Application that is built for real-time weather information of any city - JavaScript,HTML and CSS
+                </p>
+
+                <a href="#"
+                  ><i class="bx bx-link-external" style="color: aliceblue"></i
+                ></a>
+              </div>
+            </div>
+            <div class="row">
+              <img src="Images/job.jpg">
+              <div class="layer">
+                <h5>JobSearch</h5>
+                <p>
+                  It is a APIs Based Weather Application that is built for real-time weather information of any city - JavaScript,HTML and CSS
+                </p>
+
+                <a href="#"
+                  ><i class="bx bx-link-external" style="color: aliceblue"></i
+                ></a>
+              </div>
+            </div>
+            <div class="row">
+              <img src="Images/todo.jpg">
+              <div class="layer">
+                <h5>ToDo List</h5>
+                <p>
+                  This website is designed and developed for tasks management functionality for seamless user experience using JavaScript , HTML CSS .
+                </p>
+
+                <a href="#"
+                  ><i class="bx bx-link-external" style="color: aliceblue"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <a href="project.html" class="btn" target="_self">See More</a>
+        </div>
+      </div>
+      
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+
+  
+        <div class="contact-details">
+          <div class="contact-list">
+          <p><li><i class='bx bx-paper-plane'></i> dipanitamallick013@gmail.com</li></p>
+        </div>
+        <div class="contact-icons">
+          <a href="mailto:contact@dipanitamallick013@gmail.com"><i class="bx bxl-gmail"></i></a>
+          <a href=" https://github.com/Dipanita04"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/dipanita-mallick-5b3b87282/"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        </div>
+        
+      </div>
+
+      <div class="contact-here">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Enter Your Name" required />
+          <input
+            type="email"
+            name="Email"
+            placeholder="Enter Your Email"
+            required
+          />
+          <textarea
+            name="Message"
+            rows="6"
+            placeholder="Type Your Message"
+          ></textarea>
+          <button type="submit" class="btn btn3" >SUBMIT</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </section>
+    <div class="last-text">
+      <p>Copyright &copy;All rights reserved</p>
+    </div>
+    
+
+    <script src="script.js"></script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwV4Z30BvhhBbLoCCGjCWlXIp9Oh9v57jkey8YepfKtLImZEJJ_cnwOBtnTFQGAluoV/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg=document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+              msg.innerHTML=""
+            },5000)
+            form.reset()
+            })
+          
+          .catch(error => console.error('Error!', error.message))
+          })
+    </script>
+  </body>
+</html>
