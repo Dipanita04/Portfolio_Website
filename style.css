@@ -168,7 +168,7 @@ body {
 }
 
 .about-col-2 h1 {
-  font-size: 46px;
+  font-size: 40px;
 }
 
 .about-col-2 h1 span {
@@ -220,7 +220,7 @@ body {
 }
 .tab-titles .tab-links {
   font-style: italic;
-  font-size: 26px;
+  font-size: 24px;
 }
 .tab-links::after {
   content: "";
@@ -244,21 +244,19 @@ body {
 
 .tab-contents ul li span {
   color: rgb(168, 158, 237);
-  font-size: 26px;
-}
-
-.tab-contents li {
-  font-size: 22px;
-}
-
-.tab-contents {
-  display: none;
-}
-
-.tab-contents li {
   font-size: 24px;
 }
 
+.tab-contents li {
+  font-size: 20px;
+}
+
+.tab-contents h2 {
+  font-size: 18px;
+}
+.tab-contents {
+  display: none;
+}
 .tab-contents.active-tab {
   display: block;
 }
@@ -272,7 +270,7 @@ body {
 
 .sub-title {
   text-align: center;
-  font-size: 46px;
+  font-size: 40px;
   padding-top: 110px;
 }
 
@@ -359,15 +357,10 @@ section {
 }
 
 .main-text h2 {
-  /* padding-top: 0px;
-  margin-top: 200px; */
-  padding-bottom: 80px;
-}
-
-.main-text h2 {
-  font-size: 46px;
+  font-size: 40px;
   line-height: 1;
   text-align: center;
+  padding-bottom: 80px;
 }
 
 .main-text h2 span {
@@ -500,7 +493,7 @@ section {
 }
 
 .contact-text h2 {
-  font-size: 46px;
+  font-size: 40px;
   line-height: 1;
 }
 
