@@ -476,10 +476,12 @@ section {
   text-decoration: none;
   color: #fff;
   transition: background 0.5s;
+  font-weight: bold;
 }
 
 .btn:hover {
-  background: #1e27b2;
+  background: #939bf6;
+  color: black;
 }
 
 .contact {
@@ -575,8 +577,8 @@ section {
 }
 
 .btn.btn2:hover {
-  /* border: pink; */
-  background: rgb(83, 83, 185);
+  background: #939bf6;
+  color: black;
 }
 .contact-form form {
   position: relative;
@@ -652,7 +654,8 @@ form .btn3 {
   background: #175e8e;
 }
 form .btn3:hover {
-  background: rgb(83, 83, 185);
+  background: #939bf6;
+  color: black;
 }
 @keyframes slideRight {
   0% {
