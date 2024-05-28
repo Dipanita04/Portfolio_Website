@@ -827,7 +827,7 @@ nav .bx {
     padding-left: 34px;
   }
   .services-list {
-    grid-template-columns: repeat(auto-fit, minmax(658px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(612px, 1fr));
   }
   .services-list div h2 {
     font-size: 28px;
